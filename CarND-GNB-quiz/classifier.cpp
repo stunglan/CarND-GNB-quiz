@@ -14,6 +14,15 @@ GNB::GNB() {
 
 GNB::~GNB() {}
 
+float GNB::GNB_product(float obs,float mu,float sig)
+{
+    float num = pow((obs-mu),2.0);
+    float sig2 = pow(sig,2.0);
+    float denum = 2*sig2;
+    float norm = 1.0 / (sqrt(2.0*M_PI*sig2));
+    return norm*exp(-num/denum);
+}
+
 void GNB::train(vector<vector<double>> data, vector<string> labels)
 {
     

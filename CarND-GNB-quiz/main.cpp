@@ -73,7 +73,6 @@ int main() {
             score += 1;
         }
     }
-    
     float fraction_correct = float(score) / Y_test.size();
     cout << "You got " << (100*fraction_correct) << " correct" << endl;
     

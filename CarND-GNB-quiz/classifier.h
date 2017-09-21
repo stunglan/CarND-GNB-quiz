@@ -24,6 +24,8 @@ public:
      */
     virtual ~GNB();
     
+    float GNB_product(float obs,float mu,float sig);
+    
     void train(vector<vector<double> > data, vector<string>  labels);
     
     string predict(vector<double>);

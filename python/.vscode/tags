@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GNB	../predicition_solution.py	/^class GNB():$/;"	kind:class	line:11
+GNB	../prediction.py	/^from predicition_solution import GNB$/;"	kind:namespace	line:3
+__init__	../predicition_solution.py	/^    def __init__(self):$/;"	kind:member	line:12
+_predict	../predicition_solution.py	/^    def _predict(self, obs):$/;"	kind:member	line:81
+exp	../predicition_solution.py	/^from math import sqrt, pi, exp$/;"	kind:namespace	line:3
+gaussian_prob	../predicition_solution.py	/^def gaussian_prob(obs, mu, sig):$/;"	kind:function	line:5
+json	../prediction.py	/^import json$/;"	kind:namespace	line:4
+main	../prediction.py	/^def main():$/;"	kind:function	line:6
+np	../predicition_solution.py	/^import numpy as np$/;"	kind:namespace	line:1
+pi	../predicition_solution.py	/^from math import sqrt, pi, exp$/;"	kind:namespace	line:3
+predicition_solution.py	../predicition_solution.py	1;"	kind:file	line:1
+predict	../predicition_solution.py	/^    def predict(self, observation):$/;"	kind:member	line:96
+prediction.py	../prediction.py	1;"	kind:file	line:1
+process_vars	../predicition_solution.py	/^    def process_vars(self,vars):$/;"	kind:member	line:15
+random	../predicition_solution.py	/^import random$/;"	kind:namespace	line:2
+sqrt	../predicition_solution.py	/^from math import sqrt, pi, exp$/;"	kind:namespace	line:3
+train	../predicition_solution.py	/^    def train(self, X, Y):$/;"	kind:member	line:21
