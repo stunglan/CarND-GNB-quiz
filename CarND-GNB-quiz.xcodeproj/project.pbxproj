@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A6B5EDA71F73DC82002FC3EA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B5EDA61F73DC82002FC3EA /* main.cpp */; };
+		A6B5EDAF1F73DEB2002FC3EA /* classifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B5EDAE1F73DEB2002FC3EA /* classifier.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		A6B5EDA31F73DC82002FC3EA /* CarND-GNB-quiz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CarND-GNB-quiz"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B5EDA61F73DC82002FC3EA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6B5EDAD1F73DCDC002FC3EA /* classifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classifier.h; sourceTree = "<group>"; };
+		A6B5EDAE1F73DEB2002FC3EA /* classifier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = classifier.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				A6B5EDA61F73DC82002FC3EA /* main.cpp */,
 				A6B5EDAD1F73DCDC002FC3EA /* classifier.h */,
+				A6B5EDAE1F73DEB2002FC3EA /* classifier.cpp */,
 			);
 			path = "CarND-GNB-quiz";
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B5EDAF1F73DEB2002FC3EA /* classifier.cpp in Sources */,
 				A6B5EDA71F73DC82002FC3EA /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
